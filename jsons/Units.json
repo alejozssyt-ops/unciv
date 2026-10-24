@@ -4,7 +4,7 @@
     "unitType": "Melee",
     "uniqueTo": "SergioATP",
     "replaces": "Nuclear Missile",
-    "movement": 200,
+    "movement": 2000,
     "strength": 1500,
     "cost": 550,
     "requiredTech": "Ballistics",
