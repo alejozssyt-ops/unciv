@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Salto sergial",
+    "unitType": "Melee",
+    "uniqueTo": "SergioATP",
+    "replaces": "Nuclear Missile",
+    "movement": 10000,
+    "strength": 1500,
+    "cost": 550,
+    "requiredTech": "Ballistics",
+    "uniques": [
+      "[+10] Range"
+    ],
+    "promotions": ["Logistics", "Accuracy I", "Salto Supremo","Ignore terrain cost"],
+    "attackSound": "phasers"
+  },
+  {
+    "name": "Verity",
+    "unitType": "Melee",
+    "uniqueTo": "English",
+    "movement": 2,
+    "strength": 14,
+    "cost": 30,
+    "requiredTech": "Agriculture",
+    "obsoleteTech": "Philosophy",
+    "uniques": [
+      "May upgrade to [Archer] through ruins-like effects",
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": ["Ignore terrain cost"],
+    "attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Lina V1.0",
+    "unitType": "Melee",
+    "uniqueTo": "English",
+    "replaces": "Verity",
+    "movement": 5,
+    "strength": 19,
+    "cost": 80,
+    "requiredTech": "Philosophy",
+    "obsoleteTech": "Civil Service",
+    "promotions": ["Ignore terrain cost"],
+    "attackSound": "nonmetalhit"
+  }
+]
